@@ -28,6 +28,7 @@ jobs:
         uses: Swatinem/rust-cache@v2
 
       - name: Verify version matches release tag
+        if: github.event_name == 'release'
         run: |
           TAG="${GITHUB_REF#refs/tags/}"
           TAG_VERSION="${TAG#v}"
