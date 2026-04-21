@@ -3,7 +3,7 @@ members = ["db-http-core", "neon-http", "planetscale-http", "turso-http", "sqlx-
 resolver = "2"
 
 [workspace.package]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Timmy Silesmo <timmy@silesmo.com>"]
 license = "MIT"

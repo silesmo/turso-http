@@ -228,7 +228,7 @@ checksum = "d0a5c400df2834b80a4c3327b3aad3a4c4cd4de0629063962b03235697506a28"
 
 [[package]]
 name = "db-http-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "reqwest",
@@ -893,7 +893,7 @@ dependencies = [
 
 [[package]]
 name = "neon-http"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "db-http-core",
  "serde",
@@ -1039,7 +1039,7 @@ checksum = "7edddbd0b52d732b21ad9a5fab5c704c14cd949e5e9a1ec5929a24fded1b904c"
 
 [[package]]
 name = "planetscale-http"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "base64",
  "db-http-core",
@@ -1500,7 +1500,7 @@ dependencies = [
 
 [[package]]
 name = "sqlx-http"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "base64",
  "bigdecimal",
@@ -1525,7 +1525,7 @@ dependencies = [
 
 [[package]]
 name = "sqlx-http-macros"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1864,7 +1864,7 @@ checksum = "e421abadd41a4225275504ea4d6566923418b7f05506fbc9c0fe86ba7396114b"
 
 [[package]]
 name = "turso-http"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "db-http-core",
  "serde",
